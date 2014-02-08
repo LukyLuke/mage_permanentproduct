@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Delight_PermanentProduct>
+			<version>0.0.1</version>
+		</Delight_PermanentProduct>
+	</modules>
+	
+	<global>
+
+		<models>
+			<sales>
+				<rewrite>
+					<quote_item>Delight_PermanentProduct_Model_Quote_Item</quote_item>
+				</rewrite>
+			</sales>
+		</models>
+		<blocks>
+			<checkout>
+				<rewrite>
+					<cart>Delight_PermanentProduct_Block_Cart</cart>
+				</rewrite>
+			</checkout>
+		</blocks>
+
+	</global>
+
+</config>
